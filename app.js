@@ -16,7 +16,7 @@ var app = express();
 //app.set('view engine', 'jade');
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
-app.set('views', __dirname + '/public/html');
+app.set('views', __dirname + '/public/views/html');
 //app.use(express.static(__dirname + './public/html'));
 
 // uncomment after placing your favicon in /public
